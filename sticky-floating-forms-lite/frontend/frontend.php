@@ -58,7 +58,7 @@ if( ! class_exists('Sticky_Floating_Forms_Lite_Display') ):
 				echo do_shortcode( '[contact-form-7  id="'.absint($cf7_forms).'"]' );
 
 			}elseif( $form_shortcode ){
-				echo do_shortcode(esc_html(stripslashes($form_shortcode)));
+				echo do_shortcode(wp_kses_post($form_shortcode));
 			}else{
 				esc_html_e('No Form Selected','sticky-floating-forms-lite');
 				

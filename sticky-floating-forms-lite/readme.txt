@@ -4,8 +4,8 @@ Creator's website link: https://codeworkweb.com/wordpress-plugins/sticky-floatin
 Tags: contact form 7, sticky forms, floating forms, sticky floating forms, sticky contact
 Requires at least: 5.6
 Requires PHP: 7.4
-Tested up to: 6.5.2
-Stable tag: 1.0.9
+Tested up to: 6.7.2
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -71,6 +71,9 @@ Yes, the plugin has option to add shortcode of your form, which lets you to make
 
 
 == Changelog ==
+
+= 1.1.0 =
+* Fixed form not displaying issue, while using other forms plugins.
 
 = 1.0.9 =
 * Tested with latest WordPress
